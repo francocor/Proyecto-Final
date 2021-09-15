@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    bottom: 0%;
+}
+header {
+    background-color: #e4afdb;
+    background-image:linear-gradient(to bottom, #e4afdb, #ff8765) ;
+}
+.header__redes{
+    display:flex;
+    justify-content: flex-end;
+}
+.header__Logo{
+    width: 250px;
+    height: 250px;
+    margin-left: 40%;
+    border: none;
+}
+@media(max-width:576px){
+    .header__Logo{
+        margin-left:20% ;
+    }
+}
+h1{
+    text-align: center;
+    color: #555271;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: #ff8765;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+.nav__menuHorizontal ol li {
+    display: inline;
+    padding: 2px 7px;
+    margin:40px;
+    background-color:#feb0c0;
+}
+.nav__menuHorizontal ol li {
+    background-color:#feb0c0;
+         cursor: pointer;
+}
+.nav__menuHorizontal ol{
+    text-align: center;
+    border-bottom-width: 1px;
+         border-bottom-style: solid;
+         border-bottom-color: #a6ead5;
+}
+.nav__menuHorizontal ol a:hover {
+    color:#f0d854 ;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    padding-top: 15px;
+    color: #555271;
+}
+ol{
+    color: #a6ead5;
+    background-color: #a6ead5;
+}
+nav ol li{
+    font-family: 'Caveat', cursive;
+}
+@media (max-width:576px){
+    .nav__menuHorizontal{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.article{
+    background-color: #ff8765;
+    margin:5% 0% 0% 0%;
+    padding: 5px;
+    border:7px solid #a6ead5;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.article__articulo{
+    transition: all 2s;
+}
+.article__articulo:hover {
+    padding: 20px;
+}   
+.aside__info{
+    margin: 20px 0px 20px 0px;
+    border: 3px solid #a6ead5;
+    background-color: #e4afdb;
+    background-image: linear-gradient(to bottom, #a6ead5, #e4afdb);
+    font-family: 'Caveat', cursive;
+    text-align: center;
+}
+.subtitulo{
+    color: #ff8765;
+}
+.texto{
+    color: #555271;
+}
+.tarjetas{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.card-img-top {
+    border: 5px solid #a6ead5;
+}
+.card-body{
+    border: 5px solid #a6ead5;
+    font-family: 'Caveat', cursive;
+    background-color:#e4afdb;
+    background-image: linear-gradient(to bottom, #a6ead5, #e4afdb);
+}
+.card-title{
+    color:#ff8765;
+}
+.card-text{
+    color: #555271;
+}
+.page-footer{
+    background-color: #ff8765;
+    border: 5px solid #a6ead5;
+    font-family: 'Caveat', cursive;
+}
+.list-inline-item .btn{
+    color: #a6ead5;
+}
+.carrusel{
+    width: 500px;
+    height: 500px;
+    margin: 1% 0% 1% 0%;
+    border: 5px solid #a6ead5;
+}

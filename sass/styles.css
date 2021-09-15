@@ -1,0 +1,84 @@
+.header {
+  background-color: #a6ead5;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a6ead5), to(#ff8765));
+  background-image: linear-gradient(to bottom, #a6ead5, #ff8765);
+}
+
+.header .titulo {
+  margin-left: 40%;
+  padding: 50px;
+  font-family: 'Caveat', cursive;
+  font-size: 250%;
+}
+
+.titulo {
+  color: #a6ead5;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 5px 16px;
+  margin: 55px;
+  background-color: #a6ead5;
+  cursor: pointer;
+  font-family: 'Caveat', cursive;
+}
+
+.menu ul {
+  background-color: #ff8765;
+  text-align: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #a6ead5;
+}
+
+.menu ul a:hover {
+  color: #f0d854;
+}
+
+form {
+  border: 5px solid #a6ead5;
+  background-color: #ff8765;
+  font-family: 'Caveat', cursive;
+  color: #555271;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a6ead5), to(#ff8765));
+  background-image: linear-gradient(to bottom, #a6ead5, #ff8765);
+}
+
+form label {
+  padding: 0% 6% 0% 0%;
+}
+
+form input {
+  font-family: 'Caveat', cursive;
+}
+
+form textarea {
+  font-family: 'Caveat', cursive;
+}
+
+form .botones {
+  font-family: 'Caveat', cursive;
+}
+
+.volver {
+  margin: 5px 0px 5px 0px;
+  border: 5px solid #a6ead5;
+  font-family: 'Caveat', cursive;
+  color: #a6ead5;
+  background-color: #ff8765;
+  display: inline-block;
+  border-radius: 5%;
+}
+
+.volver a:hover {
+  color: #f0d854;
+  font-family: 'Caveat', cursive;
+}
+
+.page-footer {
+  background-color: #ff8765;
+  border: 5px solid #a6ead5;
+  font-family: 'Caveat', cursive;
+}
+/*# sourceMappingURL=styles.css.map */
